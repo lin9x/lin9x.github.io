@@ -16,21 +16,23 @@
                 <img src="./imgs/THUHCSI_logo.png" alt="THUHCSI_Logo" height=100px>
             </div>
             <div class="head-title">
-                <h3>WavSyncSwap: End-to-End Portrait-Customized Audio-Driven Talking Face Generation</h3>
+                <h3>AV-SepFormer: Cross-Attention SepFormer for Audio-Visual Target Speaker Extraction</h3>
                 <h5>Submitted to ICASSP 2023</h5>
                 <h5 class="abstract">[Abstract]</h5>
-                <p class="abstract">Audio-driven talking face with portrait customization enhances the flexibility of
-                    avatar applications for different scenarios, such as online meetings, mixed reality, and data
-                    generation. Among the existing methods, audio-driven talking face and face swapping are typically
-                    viewed as separate tasks that are cascaded to achieve the objective. Using state-of-the-art methods
-                    Wav2Lip and SimSwap for this purpose, we meet some issues: affected mouth synchronization, lost
-                    texture information, and slow inference speed. To resolve these issues, we propose an end-to-end
-                    model that combines the advantages of both approaches. Our approach generates highly-synchronized
-                    mouth with the aid of a pre-trained lip-sync discriminator. And identity information is provided by
-                    ArcFace and the ID injection module in the model because of its strong correlation with facial
-                    texture. Experimental results demonstrate that our method achieves lip-sync accuracy comparable to
-                    real synced videos and preserves more texture details than cascade methods. Also, our approach
-                    improves the inference speed.</p>
+                <p class="abstract">Visual information can serve as an effective cue for target speaker extraction
+                    (TSE) and is vital to improving extraction performance. In this paper, we propose AV-SepFormer, a
+                    SepFormer-based attention dual-scale model that utilizes cross- and self-attention to fuse and model
+                    features from audio and visual.
+                    AV-SepFormer splits the audio feature into a number of chunks, equivalent to the length of the
+                    visual feature. Then self- and cross-attention are employed to model the multi-modal features
+                    Furthermore, we use a novel 2D positional encoding, that introduces the positional information
+                    between and within chunks and provides significant gains over the traditional positional encoding.
+                    Our model has two key advantages: the time granularity of audio chunked feature is synchronized to
+                    the visual feature, which alleviates the harm caused by the inconsistency of audio and video
+                    sampling rate; by combining self- and cross-attention, feature fusion and speech extraction
+                    processes are unified within an attention paradigm.
+                    The experimental results show that AV-SepFormer significantly outperforms other existing methods.
+                </p>
             </div>
             <div class="introduction">
                 <p class="sub-para">[Demos]</p>
