@@ -76,6 +76,7 @@ body {
 .footer {
     margin-top: 20px;
     height: 100px;
+    vertical-align: middle;
     background-color: #0c488c;
 }
 
@@ -83,9 +84,9 @@ body {
     margin: auto auto;
     padding: 16px;
     text-align: center;
+    vertical-align: middle;
     display: flex;
     width: fit-content;
-    vertical-align: middle;
 }
 
 .mid-line {
