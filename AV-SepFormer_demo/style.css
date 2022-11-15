@@ -1,10 +1,10 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     width: 100%
 }
 
@@ -54,7 +54,7 @@ body{
     text-align: center;
 }
 
-.title-box img{
+.title-box img {
     border-top: 20px #0c488c solid;
     position: relative;
 }
@@ -80,12 +80,12 @@ body{
     position: relative;
 }
 
-#ack a{
+#ack a {
     text-decoration: underline;
     color: #ffffff;
 }
 
-#ack a:visited{
+#ack a:visited {
     color: #ffffff;
 }
 
@@ -94,31 +94,31 @@ body{
     border-left: 20px #ffffff solid;
 }
 
-.media_r{
+.media_r {
     float: left;
     width: 50%;
     box-sizing: border-box;
 }
 
-.media_p{
+.media_p {
     float: left;
     width: 40%;
     box-sizing: border-box;
 }
 
-.media_b{
+.media_b {
     float: left;
     width: 40%;
     box-sizing: border-box;
 }
 
-.media_s{
+.media_s {
     float: right;
     width: 50%;
     box-sizing: border-box;
 }
 
-.notion{
+.notion {
     float: left;
     width: 20%;
     box-sizing: border-box;
@@ -135,4 +135,4 @@ body{
 
 .clear {
     clear: both;
-    }
+}
