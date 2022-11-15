@@ -54,6 +54,13 @@ body {
     text-align: center;
 }
 
+.mid-line {
+    width: 1px;
+    height: 80px;
+    margin: 0 8px 0 10px;
+    background-color: #e2e2e2;
+}
+
 .title-box img {
     border-top: 20px #0c488c solid;
     position: relative;
