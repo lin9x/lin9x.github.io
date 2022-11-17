@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="title-box">
-            <img src="./img/THUHCSI_logo.png" alt="THUHCSI_Logo">
+            <img src="./imgs/THUHCSI_logo.png" alt="THUHCSI_Logo">
             <p id="paper-title">AV-SepFormer: Cross-Attention SepFormer for Audio-Visual Target Speaker Extraction</p>
             <p id="submit">Submitted to ICASSP 2023</p>
         </div>
@@ -45,382 +45,229 @@
             </p>
         </div>
     </div>
+    <div class="content">
 
+        <div class="demos-title">
+            <p>Compare with MuSE [1] and AV-ConvTasnet [2].
+            </p>
+        </div>
 
-    <div class="single-demo">
-        <div class="subtitle-box-2">
-            <h1>Comparison with other TSE models</h1>
+        <div class="wrapper">
+            <div class="one item">
+                <p class="center-box">Mixture video</p>
+                <video width="320" height="160" controls>
+                    <source src="demos/case1/tgt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="two1 item">
+                <p class="center-box">GT</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="two2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three1 item">
+                <p class="center-box">Proposed</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four1 item">
+                <p class="center-box">MuSE</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five1 item">
+                <p class="center-box">AV-ConvTasnet</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
         </div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gBR_sBM_cAll_d04_mBR0_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gBR_sBM_cAll_d04_mBR0_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="notion">
-            <h2>Information</h2>
-            <p>Genre: 'BR'/'Break'</p>
-            <p>Music: mBR0</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gBR_sBM_cAll_d05_mBR0_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gBR_sBM_cAll_d05_mBR0_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gHO_sBM_cAll_d20_mHO5_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gHO_sBM_cAll_d20_mHO5_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'HO'/'House'</p>
-            <p>Music: mHO5</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gHO_sBM_cAll_d21_mHO5_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gHO_sBM_cAll_d21_mHO5_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
 
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gJB_sBM_cAll_d08_mJB5_ch01.mp4" type="video/mp4">
-            </video>
+        <div class="wrapper">
+            <div class="one item">
+                <p class="center-box">Mixture video</p>
+                <video width="320" height="160" controls>
+                    <source src="demos/case1/tgt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="two1 item">
+                <p class="center-box">GT</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="two2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three1 item">
+                <p class="center-box">Proposed</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four1 item">
+                <p class="center-box">MuSE</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five1 item">
+                <p class="center-box">AV-ConvTasnet</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
         </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gJB_sBM_cAll_d08_mJB5_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'JB'/'Ballet Jazz'</p>
-            <p>Music: mJB5</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gJB_sBM_cAll_d09_mJB5_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gJB_sBM_cAll_d09_mJB5_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
 
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gJS_sBM_cAll_d01_mJS3_ch02.mp4" type="video/mp4">
-            </video>
+        <div class="wrapper">
+            <div class="one item">
+                <p class="center-box">Mixture video</p>
+                <video width="320" height="160" controls>
+                    <source src="demos/case1/tgt.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="two1 item">
+                <p class="center-box">GT</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="two2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three1 item">
+                <p class="center-box">Proposed</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="three2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four1 item">
+                <p class="center-box">MuSE</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="four2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five1 item">
+                <p class="center-box">AV-ConvTasnet</p>
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+            <div class="five2 item">
+                <div class="target-audio center-box">
+                    <audio controls>
+                        <source src="demos/case1/cascade.mp4" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
         </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gJS_sBM_cAll_d01_mJS3_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'JS'/'Street Jazz'</p>
-            <p>Music: mJS3</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gJS_sBM_cAll_d03_mJS3_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gJS_sBM_cAll_d03_mJS3_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gKR_sBM_cAll_d28_mKR2_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gKR_sBM_cAll_d28_mKR2_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'KR'/'Krump'</p>
-            <p>Music: mKR2</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gKR_sBM_cAll_d30_mKR2_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gKR_sBM_cAll_d30_mKR2_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gLH_sBM_cAll_d17_mLH4_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gLH_sBM_cAll_d17_mLH4_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'LH'/'LA style Hip-hop'</p>
-            <p>Music: mLH4</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gLH_sBM_cAll_d18_mLH4_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gLH_sBM_cAll_d18_mLH4_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gLO_sBM_cAll_d13_mLO2_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gLO_sBM_cAll_d13_mLO2_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'LO'/'Lock'</p>
-            <p>Music: mLO2</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gLO_sBM_cAll_d15_mLO2_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gLO_sBM_cAll_d15_mLO2_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gMH_sBM_cAll_d24_mMH3_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gMH_sBM_cAll_d24_mMH3_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'MH'/'Middle Hip-hop'</p>
-            <p>Music: mMH3</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gMH_sBM_cAll_d24_mMH3_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gMH_sBM_cAll_d24_mMH3_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gPO_sBM_cAll_d10_mPO1_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gPO_sBM_cAll_d10_mPO1_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'PO'/'Pop'</p>
-            <p>Music: mPO1</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gPO_sBM_cAll_d11_mPO1_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gPO_sBM_cAll_d11_mPO1_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
-        <hr style=" height:2px;border:none;border-top:2px dotted #185598; width: 99%; float: left;" />
-        <div class="clear"></div>
-
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gWA_sBM_cAll_d25_mWA0_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gWA_sBM_cAll_d25_mWA0_ch01.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="subtitle">
-            <h2>Information</h2>
-            <p>Genre: 'WA'/'Waack'</p>
-            <p>Music: mWA0</p>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Proposed</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_s/gWA_sBM_cAll_d25_mWA0_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Bailando</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_b_s/gWA_sBM_cAll_d25_mWA0_ch02.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="clear"></div>
     </div>
 
-    <div class="single-demo">
-        <div class="subtitle-box-2">
-            <h1>Ablation Study</h1>
-        </div>
-        <div class="clear"></div>
-        <div class="media_p">
-            <h2>Without Cross-Attention</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_ab/gLO_sBM_cAll_d13_mLO2_ch02_woe.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="media_b">
-            <h2>Without 2D Positional Encoding</h2>
-            <video width="90%" height="90%" controls>
-                <source src="video_ab/gLO_sBM_cAll_d13_mLO2_ch02_wop.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="notion">
-            <h2>Information</h2>
-            <p>Genre: 'LO'/'Lock'</p>
-            <p>Music: mLO2</p>
-        </div>
-        <div class="clear"></div>
-    </div>
 
-    <div class="footer">
+    <div class=" footer">
         <div class="footer-logo">
             <a target="_blank" href="https://thuhcsi.github.io/">
-                <img src="./img/THUHCSI_logo.png" alt="THUHCSI_Logo" height=80px>
+                <img src="./imgs/THUHCSI_logo.png" alt="THUHCSI_Logo" height=80px>
             </a>
             <div class="mid-line"></div>
-            <img src="./img/MITC_logo.png" alt="PINGAN_Logo" height=40px>
+            <img src="./imgs/MITC_logo.jpg" alt="MITC_Logo" height=80px>
         </div>
     </div>
 
