@@ -125,6 +125,7 @@ body {
     display: block;
     padding-top: 5px;
     margin: auto;
+    margin-top: 20px;
     height: 55px;
     max-width: 1048px;
     position: relative;
@@ -169,11 +170,17 @@ body {
     text-align: center;
 }
 
+.sisdr {
+    font-weight: 300;
+    font-size: 12px;
+    vertical-align: middle;
+    position: relative;
+}
 
 .wrapper {
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 450px);
     grid-gap: auto;
     grid-auto-rows: minmax(80px, auto);
     padding-top: 5px;
