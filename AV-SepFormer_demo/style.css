@@ -169,6 +169,7 @@ body {
     text-align: center;
 }
 
+
 .wrapper {
     display: grid;
     text-align: center;
@@ -177,6 +178,7 @@ body {
     grid-auto-rows: minmax(80px, auto);
     padding-top: 5px;
     position: relative;
+    justify-content: center;
 }
 
 .one {
