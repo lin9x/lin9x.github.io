@@ -141,14 +141,14 @@ body {
 .subdemo-title {
     display: block;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin: auto;
-    height: 55px;
-    max-width: 1048px;
+    height: 70px;
+    max-width: 1350px;
     position: relative;
     background-color: #e8f1ff;
-    font-size: 12pt;
-    font-weight: bold;
-    text-align: center;
+    font-size: 10pt;
+    text-align: left;
 }
 
 .demos {
