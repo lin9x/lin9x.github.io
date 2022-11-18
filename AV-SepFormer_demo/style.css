@@ -130,9 +130,9 @@ body {
     margin: auto;
     margin-top: 20px;
     height: 55px;
-    max-width: 1048px;
+    max-width: 600px;
     position: relative;
-    background-color: #e8f1ff;
+    background-color: #ffffff;
     font-size: 15pt;
     font-weight: bold;
     text-align: center;
@@ -146,7 +146,7 @@ body {
     height: 70px;
     max-width: 1350px;
     position: relative;
-    background-color: #e8f1ff;
+    background-color: #ffffff;
     font-size: 10pt;
     text-align: left;
 }
