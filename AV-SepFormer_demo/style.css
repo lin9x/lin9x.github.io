@@ -174,9 +174,10 @@ body {
 }
 
 .SI-SDR {
-    height: 50px;
-    line-height: 50px;
+    height: 80px;
+    line-height: 30px;
     margin-left: 20px;
+    margin-bottom: 0px;
     font-weight: 300;
     font-size: 16px;
     vertical-align: middle;
